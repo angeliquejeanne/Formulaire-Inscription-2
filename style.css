@@ -1,0 +1,79 @@
+body
+{
+    background-color: violet;
+}
+.clearfix:after
+{
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.clearfix 
+{
+    display: block;
+    text-align: center;
+}
+html[xmlns] .clearfix 
+{
+    display: block;
+}
+* html .clearfix 
+{
+    height: 1%;
+}
+html
+{
+    box-sizing: border-box
+}
+*, *:after,*:before 
+{
+    box-sizing: inherit
+}
+.inscription
+{
+    width: 50em;
+    margin: 0 auto;
+    background: grey;
+    text-align: center;
+    border-radius: 10px;
+    margin-top : 20px;
+}
+form
+{
+    float:center;
+}
+h2
+{
+    color : black;
+    padding: 10px;
+}
+input
+{
+    margin: 5px 20px;
+    height: 3em;
+    width: 80%;
+    color: #ff0000;
+    border: 2px solid purple;
+}
+.message
+{
+    background: #3801ff;
+    width: 30em;
+    height: 200px;
+    margin-left: 10em;
+    margin-bottom: 2em;
+    padding : 5px 5px;
+    color: orange;
+}
+button
+{
+    background: #02ffff;
+    border : none;
+    margin : 10px;
+    color: black;
+    border-radius: 4px;
+    padding: 10px;
+}
